@@ -21,4 +21,4 @@ To utilize the Coupled FMC-Fire Dynamics Simulator (FDS) model, follow these ste
 5. Review Results: Upon completion, the simulation results will be saved in the same directory as the code, allowing for analysis and comparison with expected outcomes.
    
 # Sample Input Data- Coupled FMC-Fire Dynamics Simulator model
-For validation purposes, sample input data for three validation cases can be found in the 'Input data for validation' folder. These inputs have been sourced from relevant literature.
+For validation purposes, sample input data for three validation cases can be found in the 'Input data for validation' folder. These inputs have been sourced from relevant literature, details of which are provided in the paper.

@@ -1,11 +1,30 @@
-# Physics-Based-Dynamic Fuel Moisture content (FMC)
-This repository hosts the code related to the paper "A Physics-Based Model of Dynamically Varying Fuel Moisture Content in Response to Microclimatic Effects for Fire Behavior Prediction" authored by Ritambhara Raj Dubey and Neda Yaghoobian. The purpose of this repository is to provide access to the code implementation described in the paper. The repository is maintained by the authors of this paper. For more details please contact us by email at nyaghoobian@eng.famu.fsu.edu or rrd20z@fsu.edu.
+## Fire Dynamics Simulator and Smokeview
 
-# Usage- Dynamic FMC model
-1. Download all files from the folder Dynamic FMC model from Github.
-2. Open fortran using Fortran IDE (such as CodeBlock) on your computer.
-3. Run the file Dynamic_FMC_model.f90
-4. The results will be saved in the same directory as the code.
+*Continuous Integration. Continuous Improvement.*
 
-# Sample Input Data
-The input parameters for air temperature and relative humidity are sourced from Matthews, S. (2006), specifically from their paper titled "A process-based model of fine fuel moisture," published in the International Journal of Wildland Fire (Vol. 15, No. 2, pp. 155-168). Additionally, wind speed and solar radiation data are sourced from the Himawari 2011-15: PSM v3 weather data file.
+Fire Dynamics Simulator ([FDS](https://github.com/firemodels/fds)) is a large-eddy simulation (LES) code for low-speed flows, with an emphasis on smoke and heat transport from fires.
+
+Smokeview ([SMV](https://github.com/firemodels/smv)) is a visualization program used to display the output of FDS and [CFAST](https://github.com/firemodels/cfast) simulations.
+
+For more information, including a link to our discussion forum, please visit the [FDS-SMV website](https://pages.nist.gov/fds-smv/).
+
+Here is a link to our [Firebot Build Status](https://pages.nist.gov/fds-smv/firebot_status.html).
+
+Here is a link to [contributing](https://github.com/firemodels/fds/blob/master/CONTRIBUTING.md) to the FDS and Smokeview project.
+
+Here are some other useful links:
+
+[FDS-SMV Downloads (includes Release Documentation)](https://github.com/firemodels/fds/releases)
+
+[Smokeview Downloads](https://github.com/firemodels/smv/releases)
+
+[Discussion Forum](https://groups.google.com/forum/#!forum/fds-smv)
+
+[Documentation Nightly Builds](https://drive.google.com/drive/folders/0B_wB1pJL2bFQUlJwMmNfaHlqME0)
+
+[FDS Issues](https://github.com/firemodels/fds/issues)
+
+[Smokeview Issues](https://github.com/firemodels/smv/issues)
+
+Pull requests welcome!
+

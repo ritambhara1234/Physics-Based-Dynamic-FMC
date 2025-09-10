@@ -1,8 +1,8 @@
 # Physics-Based-Dynamic Fuel Moisture content (FMC)
-This repository hosts the code related to the paper "A Physics-Based Model of Dynamically Varying Fuel Moisture Content in Response to Microclimatic Effects for Fire Behavior Prediction" authored by Ritambhara Raj Dubey and Neda Yaghoobian. The purpose of this repository is to provide access to the code implementation described in the paper. The repository is maintained by the authors of this paper. For more details please contact us by email at nyaghoobian@eng.famu.fsu.edu or rrd20z@fsu.edu.
+This repository hosts the code related to the paper "A physics-based model of thermodynamically varying fuel moisture content for fire behavior prediction" authored by Ritambhara Raj Dubey and Neda Yaghoobian. The purpose of this repository is to provide access to the code implementation described in the paper. The repository is maintained by the authors of this paper. For more details please contact us by email at nyaghoobian@eng.famu.fsu.edu or rrd20z@fsu.edu.
 
 # Usage- Dynamic FMC model
-1. Download all files from the folder Dynamic FMC model from Github.
+1. Download all files from the folder Dynamic-FMC-model/Model from Github.
 2. Open fortran using Fortran IDE (such as CodeBlock) on your computer.
 3. Run the file Dynamic_FMC_model.f90
 4. The results will be saved in the same directory as the code.
@@ -21,4 +21,4 @@ To utilize the Coupled FMC-Fire Dynamics Simulator (FDS) model, follow these ste
 5. Review Results: Upon completion, the simulation results will be saved in the same directory as the code, allowing for analysis and comparison with expected outcomes.
    
 # Sample Input Data- Coupled FMC-Fire Dynamics Simulator model
-For validation purposes, sample input data for three validation cases can be found in the 'Input data for validation' folder. These inputs have been sourced from relevant literature, details of which are provided in the paper.
+For validation purposes, sample input data for three validation cases can be found in the 'Input data for validation' folder. These inputs have been sourced from relevant literature, details of which are provided in the paper: Dubey, R. R., & Yaghoobian, N. (2024). A physics-based model of thermodynamically varying fuel moisture content for fire behavior prediction. Environmental Modelling & Software, 179, 106111.
